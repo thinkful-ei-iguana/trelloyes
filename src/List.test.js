@@ -5,7 +5,7 @@ import List from './List';
 import store from './STORE';
 
 
-describe('Lard', () => {
+describe('List', () => {
   let cards = store.lists[0].cardIds.map(id => {
     return store.allCards[id];
   });
